@@ -31,7 +31,7 @@ Used a simple model (Logistic Regression) in a pipeline with TF-IDF vectorizatio
 For real-time classification, we’ll set up a Flask API endpoint where new call data can be sent for classification. This will enable you to classify calls as they come in.
 
 After this in the bash code run the p1 app as : _python p1.py_
-This will download the **pkl file** in the directory which will later be used to route in **app.py.**
+This will download the **pkl file** in the directory which will later be used to load the trained model in flask app **app.py.**
 
 **Create a new Flask app named app.py :**
 
